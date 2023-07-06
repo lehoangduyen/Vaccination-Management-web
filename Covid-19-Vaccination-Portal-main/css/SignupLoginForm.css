@@ -1,0 +1,253 @@
+/* LOGIN FORM */
+
+#form-container-login {
+    display: none;
+    z-index: 10;
+    position: fixed;
+    width: 400px;
+    height: 450px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-200px, -225px);
+    border-radius: 20px;
+    background: #FEFEFE;
+    transition: 500ms;
+}
+
+.form-login .btn-linked-page .page-reg-acc,
+.page-forgot-pass {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+/* END LOGIN FORM */
+
+/* REG-ACC FORM */
+
+#form-container-reg-acc {
+    display: none;
+    z-index: 10;
+    position: fixed;
+    width: 400px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-200px, -250px);
+    border-radius: 20px;
+    background: #FEFEFE;
+    transition: 500ms;
+}
+
+
+.form-reg-acc .page-login {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+/* END REG-ACC FORM */
+
+/* LOGIN & REG-ACC FORM */
+
+.form {
+    display: grid;
+    max-width: 400px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px 50px 20px 50px;
+    align-items: center;
+    text-align: left;
+    font-family: 'Roboto';
+}
+
+.form .btn-close {
+    width: 18px;
+    justify-self: right;
+    font-weight: 100;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.form .title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.form label {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+
+.form input {
+    border: none;
+    outline: none;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-size: 24px;
+}
+
+.form input {
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.form .btn-linked-page {
+    text-decoration: none;
+    font-size: 18px;
+    color: #77DAE8;
+}
+
+.form .form-hr {
+    background: var(--bg_gradient);
+    height: 1px;
+    border: none;
+}
+
+.form .btn-linked-page p {
+    text-decoration: none;
+    font-weight: 300;
+    cursor: pointer;
+}q
+
+.form p {
+    text-align: center;
+}
+
+.form .btn-long {
+    margin: 0 auto;
+}
+
+/* END LOGIN & REG-ACC FORM */
+
+/* REGISTRATION PERSONAL PROFILE FORM */
+.container-reg-profile {
+    /* display: block; */
+    display: none;
+    z-index: 10;
+    position: fixed;
+    width: 1000px;
+    height: 640px;
+    left: 50%;
+    top: 10%;
+    transform: translate(-500px, 0px);    
+    border-radius: 20px;
+    background: #FEFEFE;
+    transition: 500ms;
+}
+
+.container-reg-profile hr{
+    background: var(--bg_gradient);
+    height: 1px;
+    border: none;
+}
+
+.container-reg-profile .title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    margin: 60px 0px 40px 0px;
+    text-align: center;
+}
+
+.container-reg-profile select, input {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 2px 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.container-reg-profile label, p {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.container-reg-profile div div {
+    width: 30%;
+}
+
+.container-reg-profile .row4 input, .row5 input {
+    width: 100%;
+} 
+
+.container-reg-profile .row1, .row2, .row3, .row6 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 10px 100px;
+    padding-bottom: 4px;
+}
+
+.container-reg-profile p {
+    font-size: 18px;
+    margin: 5px 100px;
+}
+
+.container-reg-profile .row4, .row5{
+    width: 50%;
+    margin: 0px 100px;
+    padding-top: 10px;
+}
+
+.container-reg-profile .row6 .note {
+    font-size: 15px;
+    color: red;
+    width: 60%;
+}
+
+.container-reg-profile .row6 ul {
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.container-reg-profile span {
+    color: red;
+}
+
+.container-reg-profile .row6 button {
+    margin-top: 20px;
+}
+/* END REGISTRATION PERSONAL PROFILE FORM */
+
+/* FORGOT PASSWORD FORM */
+.container-forgot-password {
+    display: none;
+    z-index: 10;
+    position: fixed;
+    width: 500px;
+    /* height: 545px; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-200px, -225px);
+    border-radius: 20px;
+    background: white;
+    transition: 500ms;
+}
+
+.container-forgot-password input{
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.container-forgot-password .fg {
+    margin-top: 15px;
+}
+
+.container-forgot-password .new_password {
+    /* display: none; */
+}
+
+
+/* END FORGOT PASSWORD FORM */

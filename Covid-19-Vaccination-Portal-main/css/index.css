@@ -1,0 +1,33 @@
+/* CONTENT */
+
+.content {
+    height: 600px;
+    margin-top: 20px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .content-box {
+    height: 100%;
+    width: 20%;
+    background: white;
+    /* border-radius: 5%; */
+    transition: 300ms;
+}
+
+.content-alignment-side {
+    width: 5%;
+}
+
+.content .content-box:hover {
+    box-shadow: 2px 2px 7px -2px black;
+}
+
+.content-below {
+    height: 50px;
+    background: whitesmoke;
+}
+
+/* END CONTENT */
+

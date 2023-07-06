@@ -1,0 +1,35 @@
+
+/* SLIDER */
+.slideshow-container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.slider img {
+    transition: 300ms;
+}
+
+.slider .frame-slider_dot {
+    margin-top: 15px;
+}
+
+/* The dots/bullets/indicators */
+.slider_dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #E4D4FE;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #A07AD1;
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {}
+
+/* end slider  */

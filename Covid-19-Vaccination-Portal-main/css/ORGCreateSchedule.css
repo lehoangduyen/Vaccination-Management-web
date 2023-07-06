@@ -1,0 +1,93 @@
+.holder-function-panel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.function-panel {
+    width: 80%;
+    height: 590px;
+    border-style: solid;
+    border: 1px solid #8C69CA;
+    border-radius: 20px;
+}
+
+.panel-list-schedule {
+    width: 100%;
+    height: 445x;
+}
+
+.panel-list-schedule .list-name {
+    margin: 0 auto;
+    width: 84%;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: #8C69CA;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 28px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+}
+
+.panel-list-schedule .holder {
+    height: 500px;
+}
+
+/* UPDATE SCHEDULE */
+
+.panel-update-schedule {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    background: rgba(255, 202, 202, 0.1);
+    margin: 0 auto;
+    width: 84%;
+}
+
+.panel-update-schedule .title {
+    padding-top: 20px;
+    color: #8C69CA;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.panel-update-schedule .schedule-id,
+.panel-update-schedule .attr-date-vaccine-serial {
+    font-style: italic;
+    font-weight: 300;
+    padding: 3px 0px 5px 0px;
+}
+
+.panel-update-schedule .container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.panel-update-schedule .container label {
+    display: flex;
+    padding: 22px 0px 8px 0px;
+}
+
+.panel-update-schedule input, .panel-update-schedule .container select {
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    padding-left: 15px;
+    border-color: #D1BFF3;
+    outline-color: #fff5fe;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.panel-update-schedule button {
+    margin-top: 30px;
+    font-size: 20px;
+}

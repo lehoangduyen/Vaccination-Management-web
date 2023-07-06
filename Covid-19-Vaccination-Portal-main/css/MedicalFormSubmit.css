@@ -1,0 +1,159 @@
+/* FUNCTIONAL PANEL */
+
+.holder-function-panel {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.panel-target-citizen {
+    display: flex;
+    justify-content: center;
+}
+
+.panel-target-citizen * {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 5px;
+    line-height: 32px;
+}
+
+.function-panel {
+    width: 63%;
+    height: 590px;
+    border-style: solid;
+    border: 1px solid #8C69CA;
+    border-radius: 0px 20px 20px 0px;
+    padding-bottom: 27px;
+}
+
+.panel-form-medical {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgba(224, 202, 238, 0.32);
+    box-shadow: 2px 2px 5px -2px black;
+}
+
+.panel-form-medical .form-medical {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.panel-form-medical .form-medical * {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.panel-form-medical .form-medical .input_date {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.panel-form-medical .form-medical .input_date input {
+    width: 20%;
+    border-radius: 10px;
+    text-align: right;
+    height: 32px;
+}
+
+.panel-form-medical .form-medical p {
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.panel-form-medical .form-medical .form-btn-input {
+    display: flex;
+    justify-content: center;
+}
+
+.panel-form-medical .form-medical .form-btn-input input {
+    margin-right: 20px;
+    width: 18px;
+}
+
+
+.panel-form-medical .form-medical div * {
+    padding: 0px 5px;
+}
+
+.panel-form-medical .list-name {
+    color: #8C69CA;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.panel-form-medical .holder .list-registration {
+    width: 100%;
+    height: 450px;
+}
+
+.panel-form-medical .holder .list-registration .registration {
+    width: 80%;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 4px;
+    background-color: white;
+    box-shadow: 2px 2px 5px -2px #8C69CA;
+    transition: 300ms;
+}
+
+.panel-form-medical .holder .list-registration .registration:hover {
+    box-shadow: 2px 2px 5px -1px #F5A8FF;
+}
+
+.panel-form-medical .holder .list-registration .registration 
+.obj-org-name {
+    padding: 5px 0px 0px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #D1BFF3;
+}
+
+.panel-form-medical .holder .list-registration .registration 
+.holder-obj-attr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel-form-medical .holder .list-registration .registration 
+.holder-obj-attr .obj-attr * {
+    padding: 3px 0px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.panel-form-medical .holder .list-registration .registration 
+.holder-obj-attr .obj-attr, .interactive-area {
+    padding: 5px 10px 5px 15px;
+}
+
+.panel-form-medical .holder .list-registration .registration 
+.holder-obj-attr .obj-attr {
+    width: 80%;
+}
+
+.panel-form-medical .holder .list-registration .registration 
+.holder-obj-attr .interactive-area * {
+    width: 100px;
+    height: 30px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.function-panel select, input {
+    border: none;
+    outline: none;
+    width: 250px;
+}
+
+/* END FUNCTIONAL PANEL */

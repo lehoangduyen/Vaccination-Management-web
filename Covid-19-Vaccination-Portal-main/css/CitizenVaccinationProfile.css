@@ -1,0 +1,350 @@
+/* NAVIGATOR CITIZEN PAGES */
+
+.nav-func-pages {
+    height: 50px;
+    width: 100%;
+    background: rgba(224, 202, 238, 0.32);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.nav-func-pages a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-func-title {
+    padding-left: 10%;
+    font-weight: 600;
+}
+
+.nav-directory {
+    display: flex;
+    padding-right: 10%;
+}
+
+.directory-selected a {
+    color: #167CDB;
+}
+
+
+/* END NAVIGATOR FUNCTIONAL PAGES */
+
+/* FUNCTIONAL PANEL */
+
+.panel-target-citizen {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.panel-target-citizen *{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 5px;
+    line-height: 50px;
+}
+
+.panel-target-citizen select {
+    border: none;
+}
+
+.panel-search-citizen {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25); */
+    border: none;
+}
+
+.panel-search-citizen *{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 5px;
+    line-height: 50px;
+}
+
+.panel-search-citizen select {
+    border: none;
+}
+
+.holder-function-panel {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-panel {
+    width: 17%;
+    height: 590px;
+    border-style: solid;
+    border: 1px solid #8C69CA;
+    border-right: none;
+    border-radius: 20px 0px 0px 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.nav-panel .title {
+    z-index: 5;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    background: rgba(255, 255, 255, 0.75);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+} 
+
+.nav-panel .title-bg {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    margin: 0 auto;
+    background: linear-gradient(90.97deg, rgba(157, 143, 193, 0.68) 22.76%, #F5A8FF 49.22%, #AAD5EE 79.48%);
+    filter: blur(25px);
+    border-radius: 20px;
+} 
+
+.nav-panel ul {
+    list-style: none;
+}
+
+.nav-panel ul li {
+    margin: 0px 20px;
+    padding: 10px 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 300ms;
+    border-radius: 10px;
+}
+
+.nav-panel ul li:hover {
+    cursor: pointer;
+    background-color: #D1BFF3;
+    color: white;
+}
+
+.function-panel {
+    width: 63%;
+    height: 590px;
+    border-style: solid;
+    border: 1px solid #8C69CA;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.filter-region {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.filter-panel {
+    width: 100%;
+    margin: 0 auto;
+    /* align div center*/
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* background-color: #db165e; */
+}
+
+.filter-panel label {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.filter-panel input {
+    line-height: 20px;
+    width: 200px;
+    height: 35px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-weight: 300px;
+    border-style: solid;
+    border: 0px solid #000000;
+    font-size: 18px; 
+    box-shadow: 0px 1px;
+
+    /* font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 2px 5px;
+    border: none;
+    outline: none;
+    width: 100%; */
+
+    
+}
+
+.filter-panel select {
+    height: 25px;
+    font-size: 18px;
+    border: none;
+}
+
+.filter-panel hr {  
+    background: var(--bg_gradient);
+    height: 2px;
+    display: inline-block;
+    border: none;
+    position: absolute;
+}
+
+hr {
+    width: 310px;
+height: 0px;
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+
+/* BUTTON */
+.btn-short-bordered {
+    width: 80px;
+    height: 34px;
+    border: 4px solid #8C69CA;
+    border-radius: 17px;
+    background-color: white;
+    color: #8C69CA;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    transition: 300ms;
+}
+
+.btn-short-bordered:hover {
+    cursor: pointer;
+}
+
+.btn-short-filled {
+    width: 80px;
+    height: 34px;
+    border-radius: 17px;
+    border: none;
+    background-color: #8C69CA;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    transition: 300ms;
+}
+
+.btn-short-filled:hover {
+    cursor: pointer;
+}
+
+.btn-medium-bordered {
+    width: 120px;
+    height: 34px;
+    border: 4px solid #8C69CA;
+    border-radius: 17px;
+    background-color: white;
+    color: #8C69CA;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 300;
+    transition: 300ms;
+}
+
+.btn-medium-bordered:hover {
+    cursor: pointer;
+}
+
+.btn-medium-filled {
+    width: 120px;
+    height: 34px;
+    border-radius: 17px;
+    border: none;
+    background-color: #8C69CA;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 300;
+    transition: 300ms;
+}
+
+.btn-medium-filled:hover {
+    cursor: pointer;
+}
+
+.btn-medium-bordered-icon {
+    width: 140px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 4px solid #8C69CA;
+    border-radius: 17px;
+    padding: 10px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 7px;
+
+    color: #8C69CA;
+    font-size: 16px;
+    font-weight: 300;
+
+    transition: 300ms;
+}
+
+.btn-medium-bordered-icon:hover {
+    cursor: pointer;
+}
+/* END BUTTON */
+.panel-vaccinationprofile{
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid #A084CA;
+    border-radius: 20px;
+    background: #FFFFFF;
+    opacity: 0.56;
+}
+.panel-vaccinationprofile * {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 20;
+    margin: 0px 5px;
+    line-height: 10px; 
+}
+
+.panel-vaccinationprofile label{
+    /* line-height: 20px; */
+    width: 200px;
+    height: 135px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-right: 200px;
+    margin-left: 20px;
+}
+

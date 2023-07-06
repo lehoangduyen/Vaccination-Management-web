@@ -1,0 +1,34 @@
+.holder-function-panel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.function-panel {
+    width: 80%;
+    height: 590px;
+    border-style: solid;
+    border: 1px solid #8C69CA;
+    border-radius: 20px;
+}
+
+.panel-list-schedule {
+    width: 100%;
+    height: 445x;
+}
+
+.panel-list-schedule .list-name {
+    color: #8C69CA;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.panel-list-schedule .holder {
+    display: flex;
+    width: 98%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}

@@ -1,0 +1,119 @@
+/* FUNCTIONAL PANEL */
+
+.panel-target-citizen {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.panel-target-citizen *{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 5px;
+    line-height: 50px;
+}
+
+.panel-target-citizen select {
+    border: none;
+    outline: none;
+}
+
+.holder-function-panel {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.function-panel {
+    width: 63%;
+    height: 590px;
+    border-style: solid;
+    border: 1px solid #8C69CA;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.filter-region {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.info-panel {
+    display: block;
+    margin-top: 50px;
+}
+
+.info-panel hr{
+    background: var(--bg_gradient);
+    height: 1px;
+    border: none;
+}
+
+.info-panel select, input {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 2px 5px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.info-panel label, p {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.info-panel p {
+    font-size: 16px;
+    margin: 0px 7%;
+}
+
+.info-panel div div {
+    width: 30%;
+}
+
+.info-panel .row1 .item_name {
+    width: 65%;
+}
+
+.info-panel select, .row3 input, .row1 input {
+    width: 100%;
+} 
+
+.info-panel .row2, .row1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 10px 7%;
+    padding-bottom: 10px;
+}
+
+
+.info-panel .group_btn{
+    /* width: 300px; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 50px 30%;
+    padding-bottom: 10px;
+}
+
+.info-panel .row3{
+    width: 56%;
+    margin: 10px 7%;
+    padding-bottom: 10px;
+}
+
+.info-panel span {
+    color: red;
+}
+
+
+/* END FUNCTIONAL PANEL */

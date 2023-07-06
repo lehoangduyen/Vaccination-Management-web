@@ -1,0 +1,32 @@
+.function-navigation-bar {
+    height: 50px;
+    width: 100%;
+    background: rgba(224, 202, 238, 0.32);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.function-navigation-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.function-title {
+    padding-left: 10%;
+    font-weight: 600;
+}
+
+.nav-directory {
+    display: flex;
+    padding-right: 10%;
+}
+
+.directory-selected a {
+    color: #167CDB;
+}

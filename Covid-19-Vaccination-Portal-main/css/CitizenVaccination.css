@@ -1,0 +1,144 @@
+/* FUNCTIONAL PANEL */
+
+.holder-function-panel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.function-panel {
+    width: 80%;
+    height: 590px;
+    border-style: solid;
+    border: 1px solid #8C69CA;
+    border-radius: 20px;
+}
+
+.panel-list {
+    width: 100%;
+    height: 445x;
+}
+
+.panel-list .list-name {
+    display: flex;
+    justify-content: center;
+    color: #8C69CA;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.panel-list .list-name .organization {
+    width: 50%;
+}
+
+.panel-list .list-name .schedule {
+    width: 50%;
+}
+
+.panel-list .holder {
+    display: flex;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+/* LIST OBJECT (ORGANIZATION & SCHEDULE */
+
+.panel-list .holder .list-object {
+    width: 49.5%;
+    height: 390px;
+    background-color: #E5E4E2;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.panel-list .holder .list-object .object {
+    height: 100px;
+    margin: 3px 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px -2px #8C69CA;
+    transition: 300ms;
+}
+
+.panel-list .holder .list-object .object:hover {
+    box-shadow: 2px 2px 5px -1px #F5A8FF;
+}
+
+.panel-list .holder .list-object .object .obj-attr * {
+    padding: 3px 0px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.panel-list .holder .list-object .object 
+.obj-attr {
+    padding: 8px 10px 8px 15px;
+    align-items: center;
+}
+
+
+/* OBJECT ORG */
+.panel-list .holder .list-org .organization {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    transition: 300ms;
+}
+
+.panel-list .holder .list-org .organization 
+.holder-btn-expand-org {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+    transition: 300ms;
+}
+
+.panel-list .holder .list-org .organization 
+.holder-btn-expand-org:hover {
+    background-color: rgba(248, 248, 248, 0.6);
+    cursor: pointer;
+}
+
+.panel-list .holder .list-org .organization 
+.holder-btn-expand-org .btn-expand-org  {
+    font-size: 40px;
+    font-weight: 100;
+    color: lightgray;
+}
+
+.panel-list .holder .list-org .organization 
+.obj-org-name {
+    padding: 5px 0px 0px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #D1BFF3;
+}
+
+/* OBJECT SCHEDULE */
+.panel-list .holder .list-object .schedule {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel-list .holder .list-schedule .schedule .interactive-area {
+    padding: 8px 10px 8px 15px;
+    align-items: center;
+}
+
+.panel-list .holder .list-schedule .schedule .interactive-area .drop-down-time {
+    width: 80px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* END FUNCTIONAL PANEL */

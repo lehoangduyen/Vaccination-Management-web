@@ -1,0 +1,115 @@
+/* FUNCTIONAL PANEL */
+
+.holder-function-panel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.function-panel {
+    width: 63%;
+    height: 590px;
+    border-style: solid;
+    border: 1px solid #8C69CA;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.panel-list {
+    width: 100%;
+    height: 445x;
+}
+
+.panel-list .list-name {
+    display: flex;
+    justify-content: center;
+    color: #8C69CA;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.panel-list .list-name .organization {
+    width: 40%;
+}
+
+.panel-list .list-name .schedule {
+    width: 50%;
+}
+
+.panel-list .holder {
+    display: flex;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/* LIST ORG */
+
+.panel-list .holder .list-org {
+    width: 60%;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    /* background: whitesmoke; */
+}
+
+.panel-list .holder .list-org .organization {
+    width: 98%;
+    height: 120px;
+    margin: 3px 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px -2px #8C69CA;
+    transition: 300ms;
+    /* cursor: pointer; */
+}
+
+.panel-list .holder .list-org .organization:hover {
+    box-shadow: 2px 2px 5px -1px #F5A8FF;
+}
+
+.panel-list .holder .list-org .organization 
+.obj-org-name {
+    padding: 5px 0px 0px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #D1BFF3;
+}
+
+.panel-list .holder .list-org .organization 
+.holder-obj-attr {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.panel-list .holder .list-org .organization 
+.holder-obj-attr .obj-attr * {
+    padding: 3px 0px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.panel-list .holder .list-org .organization 
+.holder-obj-attr .obj-attr, .interactive-area {
+    padding: 5px 10px 5px 15px;
+    align-items: center;
+}
+
+.panel-list .holder .list-org .organization 
+.holder-obj-attr .interactive-area .drop-down-time {
+    width: 80px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+
+/* END FUNCTIONAL PANEL */

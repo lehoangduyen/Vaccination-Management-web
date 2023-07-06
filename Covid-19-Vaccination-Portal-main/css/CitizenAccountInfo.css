@@ -1,0 +1,63 @@
+.holder-function-panel {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.function-panel {
+    width: 63%;
+    height: 590px;
+    border-style: solid;
+    border: 1px solid #8C69CA;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.accinfo-panel {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 15% 12% 0px 12%;
+    font-size: 18px;
+}
+
+.accinfo-panel label {
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.accinfo-panel .frame {
+    border: 1.5px solid rgba(140, 105, 202, 0.37);
+    box-shadow: 0px 1px 10px rgba(177, 154, 214, 0.72);
+    border-radius: 40px;
+    width: 40%;
+    height: 250px;
+    display: grid;
+    justify-content: center;
+}
+.accinfo-panel .frame p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.accinfo-panel hr {
+    background: var(--bg_gradient);
+    height: 1px;
+    border: none;
+}
+
+.accinfo-panel input {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 2px 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.function-panel .group_btn {
+    margin: 50px 30%;
+    display: flex;
+    justify-content: space-between;
+}

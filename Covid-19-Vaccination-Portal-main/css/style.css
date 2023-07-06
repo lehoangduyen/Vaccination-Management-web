@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+/* variables */
+:root {
+    --bg_light_gradient: linear-gradient(90deg, #D1BFF3 5%, #FAD3FF 35%, #FFDFEC 65%, #BEF7FF 95%);
+    --color_header: #8C69CA;
+    --color_content: #000000;
+    /* --bgd_gradient: linear-gradient(90deg, #A084CA 2.5%, #F5A8FF 40%, #FFBAD5 60%, #77DAE8 97.5%); Cuong da thao tung dong nay*/
+    --bg_gradient: linear-gradient(90deg, #A084CA 2.5%, #F5A8FF 39.07%, #FFBAD5 66.96%, #77DAE8 95.6%);
+    --color_footer: #A084CA;
+}
+
+/* customize scrollbar */
+body::-webkit-scrollbar {
+    width: 10px;
+    /*vertical scrollbar width*/
+    height: 10px;
+    /*horizontal scrollbar height*/
+}
+
+body::-webkit-scrollbar-thumb,
+.panel-list .holder .list-org::-webkit-scrollbar-thumb,
+.panel-list .holder .list-schedule::-webkit-scrollbar-thumb,
+.panel-list-registration .holder .list-registration::-webkit-scrollbar-thumb,
+.panel-list-schedule .holder .list-schedule::-webkit-scrollbar-thumb,
+.panel-list-schedule .holder .list-registration::-webkit-scrollbar-thumb,
+.panel-list .holder-form-medical::-webkit-scrollbar-thumb {
+    background: var(--color_header);
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-track, 
+.panel-list .holder .list-org::-webkit-scrollbar-track, 
+.panel-list .holder .list-schedule::-webkit-scrollbar-track,
+.panel-list-registration .holder .list-registration::-webkit-scrollbar-track,
+.panel-list-schedule .holder .list-schedule::-webkit-scrollbar-track,
+.panel-list-schedule .holder .list-registration::-webkit-scrollbar-track,
+.panel-list .holder-form-medical::-webkit-scrollbar-track {
+    /*scrollbar bg*/
+    background: whitesmoke;
+}
+
+.panel-list .holder .list-org::-webkit-scrollbar, 
+.panel-list .holder .list-schedule::-webkit-scrollbar,
+.panel-list-registration .holder .list-registration::-webkit-scrollbar,
+.panel-list-schedule .holder .list-schedule::-webkit-scrollbar,
+.panel-list-schedule .holder .list-registration::-webkit-scrollbar,
+.panel-list .holder-form-medical::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+
+/* POPUP CONFIRM FORM */
+
+.form-popup {
+    display: none;
+    z-index: 10;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-300px, -150px);
+    border-radius: 20px;
+    background-color: white;
+}
+
+.form-popup .form-message {
+    margin-top: 40px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    justify-self: center;
+    text-align: center;
+}
+
+.form-popup  .holder-btn {
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+/* END POPUP CONFIRM FORM */
+
+/* FADED LINEAR BACKGROUND */
+.gradient-bg-faded {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: var(--bg_gradient);
+    opacity: 0.80;
+    z-index: 9;
+    transition: 500ms;
+}
+
+/* MESSAGE FOR LOGIN AND REG */
+.message {
+    color: red;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+/* BUTTON */
+
+.btn-short-bordered {
+    width: 80px;
+    height: 34px;
+    border: 4px solid #8C69CA;
+    border-radius: 17px;
+    background-color: white;
+    color: #8C69CA;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.btn-short-filled {
+    width: 80px;
+    height: 34px;
+    border-radius: 17px;
+    border: none;
+    background-color: #8C69CA;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.btn-medium-bordered {
+    width: 120px;
+    height: 34px;
+    border: 4px solid #8C69CA;
+    border-radius: 17px;
+    background-color: white;
+    color: #8C69CA;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 300;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.btn-medium-filled {
+    width: 120px;
+    height: 34px;
+    border-radius: 17px;
+    border: none;
+    background-color: #8C69CA;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 300;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.btn-medium-bordered-icon {
+    width: 120px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 4px solid #8C69CA;
+    border-radius: 17px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8C69CA;
+    font-size: 16px;
+    font-weight: 300;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.btn-long {
+    width: 250px;
+    height: 36px;
+    border: none;
+    border-radius: 20px;
+    background: var(--bg_gradient);
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 200ms;
+    font-family: 'Roboto';
+    padding: 5px;
+}
+
+.btn-long-bordered {
+    width: 250px;
+    height: 36px;
+    border: 5px solid #A084CA;
+    border-radius: 20px;
+    background-color: white;
+    color: #A084CA;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 200ms;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+
+/* END BUTTON */
+
